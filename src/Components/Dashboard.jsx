@@ -15,7 +15,6 @@ import {
   Button,
   Center,
 } from "@chakra-ui/react";
-import { ChevronUpIcon, ChevronDownIcon } from "@chakra-ui/icons";
 import group from "../assets/navbar/Group 625873.svg";
 import down from "../assets/navbar/fe_drop-down-black.svg";
 import vectro from "../assets/navbar/Vector.svg";
@@ -39,7 +38,7 @@ const Dashboard = () => {
   };
 
   return (
-    <Box display="flex" width="1440px" height="1354px" flexShrink="0">
+    <Box display="flex" width="100%" height="1354px" flexShrink="0">
       {/* Sidebar on the left */}
       <Sidebar />
 
